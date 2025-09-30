@@ -31,7 +31,7 @@ Improved UI by adding a shadown boxes in read more.
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='videowalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ... 👉🏿 MacOS bulit-in screen recorder + ezgif.com (video to gif converter)
