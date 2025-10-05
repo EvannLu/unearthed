@@ -1,45 +1,42 @@
-# WEB103 Project 2 - *Giver*
+# WEB103 Project 3 - *Name of App Here*
 
-Submitted by: **Evan Lu**
+Submitted by: **Your name here**
 
-About this web app: **Create a Postgres database that hooks up to the UnEarthed web app. You'll modify the fronted code to accept information from the gifts table in the database. The days of serving static HTML are behind you!**
+About this web app: **App description here**
 
-Time spent: **4** hours
+Time spent: **~3** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
-  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
+- [X] **The web app uses React to display data from the API**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
+  - [X]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+- [X] **The web app displays a title.**
+- [X] **Website includes a visual interface that allows users to select a location they would like to view.**
+  - [X] *Note: A non-visual list of links to different locations is insufficient.* 
+- [X] **Each location has a detail page with its own unique URL.**
+- [X] **Clicking on a location navigates to its corresponding detail page and displays list of all events from the `events` table associated with that location.**
 
 The following **optional** features are implemented:
 
-- [ ] The user can search for items by a specific attribute
-
-The following **additional** features are implemented:
-
-- [X] List anything else that you added to improve the site's functionality!
-
-Improved UI by adding a shadown boxes in read more. 
+- [ ] An additional page shows all possible events
+  - [ ] Users can sort *or* filter events by location.
+- [ ] Events display a countdown showing the time remaining before that event
+  - [ ] Events appear with different formatting when the event has passed (ex. negative time, indication the event has passed, crossed out, etc.).
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='videowalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ... 👉🏿 MacOS bulit-in screen recorder + ezgif.com (video to gif converter)
 
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
@@ -48,6 +45,7 @@ Describe any challenges encountered while building the app or any additional con
 ## License
 
 Copyright [2025] [Evan Lu]
+
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
 > http://www.apache.org/licenses/LICENSE-2.0
